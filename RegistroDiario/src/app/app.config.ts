@@ -1,7 +1,6 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
-
-import { routes } from './app.routes';
+import { routes } from './Modulo/home/app.routes';
 import { pt_BR, provideNzI18n } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import pt from '@angular/common/locales/pt';

@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/registro-diario",
-            "index": "src/index.html",
+            "index": "src/view/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -36,7 +36,7 @@
             ],
             "styles": [
               "src/theme.less",
-              "src/styles.scss"
+              "src/view/styles.scss"
             ],
             "scripts": []
           },
@@ -96,7 +96,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/view/styles.scss"
             ],
             "scripts": []
           }
