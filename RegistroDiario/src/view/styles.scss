@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
