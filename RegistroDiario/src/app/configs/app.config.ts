@@ -1,13 +1,13 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import { routes } from './Modulo/app.routes';
+import { routes } from '../Modulo/home/components/app.routes';
 import { pt_BR, provideNzI18n } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import pt from '@angular/common/locales/pt';
 import { FormsModule } from '@angular/forms';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient } from '@angular/common/http';
-import { provideNzIcons } from './icons-provider';
+import { provideNzIcons } from '../icons-provider';
 
 registerLocaleData(pt);
 
