@@ -1,0 +1,19 @@
+
+.minha-tabela {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .minha-tabela th, .minha-tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .minha-tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0000FF; /* Cor de fundo azul */
+    color: white;
+  }
+  

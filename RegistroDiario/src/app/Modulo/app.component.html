@@ -8,27 +8,33 @@
     <div class="sidebar-logo">
       <a href="https://ng.ant.design/" target="_blank">
         <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
-        <h1>Ant Design Of Angular</h1>
+        <h1>Dashboard</h1>
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
+      <li nz-submenu nzOpen nzTitle="CAMINHO" nzIcon="dashboard">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/home">Welcome</a>
+            <a routerLink="/home">HOME</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
+            <a>DADOS</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
+            <a>TRABALHO</a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Form" nzIcon="form">
+      <li nz-submenu nzOpen nzTitle="ACESSO" nzIcon="form">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="./view/form_cadastro.html">Basic Form</a>
+            <a routerLink="./pages/login/login.component.html">CADASTRO</a>
+          </li>
+        </ul>
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="./pages/login/login.component.html">LOGIN</a>
+           
           </li>
         </ul>
       </li>
