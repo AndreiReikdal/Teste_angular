@@ -1,19 +1,11 @@
 import { FormControl, FormGroup, NonNullableFormBuilder, Validators } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { NzMenuModule } from 'ng-zorro-antd/menu';
 
-@Component({
-  selector: 'app-home',
-  standalone: true,
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
-})
-export class HomeComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() { }
-
-}
 
 @Component({
   selector: 'app-login',
@@ -46,3 +38,7 @@ export class LoginComponent {
 
   constructor(private fb: NonNullableFormBuilder) {}
 }
+
+
+
+

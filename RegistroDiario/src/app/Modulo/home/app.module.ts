@@ -25,6 +25,7 @@ import { AppComponent } from './components/app.component';
     NzButtonModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent]
 })
 export class AppModule { }
