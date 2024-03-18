@@ -11,7 +11,7 @@ export const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
   { path: 'app', component: AppComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/app', pathMatch: 'full' },
 ];
 
 @NgModule({
@@ -21,3 +21,7 @@ export const routes: Routes = [
 export class AppRoutingModule { }
 
 
+//export const routes: Routes = [
+//  { path: '', pathMatch: 'full', redirectTo: '/welcome' },
+//  { path: 'welcome', loadChildren: () => import('./pages/welcome/welcome.routes').then(m => m.WELCOME_ROUTES) }
+//];
