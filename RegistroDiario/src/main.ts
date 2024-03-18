@@ -4,4 +4,4 @@ import { AppComponent } from './app/Modulo/home/components/app.component';
 
 
 bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.log(err));
+  .catch((err) => console.error(err));
