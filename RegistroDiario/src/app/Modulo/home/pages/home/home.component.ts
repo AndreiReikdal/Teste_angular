@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
+  //standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
